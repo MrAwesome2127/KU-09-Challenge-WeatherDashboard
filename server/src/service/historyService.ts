@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 class City {
   constructor(public name: string, public id: string) {}
 }
+
 // COMPLETE: Complete the HistoryService class
 class HistoryService { 
   private filePath: string;
